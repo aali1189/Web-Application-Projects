@@ -1,7 +1,7 @@
 # Exchange Management System 
 
 ## Features
-- [Convert currency]
+- [Convert currency](#screenshots)
 - [Buy currency](#screenshots)
 - [Sell currency](#screenshots)
 - [Admin dashboard](#screenshots)
