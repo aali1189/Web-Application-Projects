@@ -1,0 +1,13 @@
+
+        {
+            "type": "amadeusOAuth2Token",
+            "username": "aali1189@gmail.com",
+            "application_name": "PoiltCab",
+            "client_id": "v6ZAGpAfT1ekslGkBBIsYbNEou3MGGsT",
+            "token_type": "Bearer",
+            "access_token": "c5TESOt6UhZjEqwHDxF0Ose5PAGk",
+            "expires_in": 1799,
+            "state": "approved",
+            "scope": ""
+        }
+        

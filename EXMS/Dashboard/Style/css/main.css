@@ -1,0 +1,25 @@
+/*Body*/
+body {
+background-color: #f9f9f9  
+
+    
+}
+
+.container{
+   width:100%;
+   margin: 0;
+   padding: 0  
+}
+.header {
+    background-color: #455a63;
+    height: 70px;
+/*    margin-bottom: 10px;*/
+}
+
+.header h1 {
+    color:#ddd;
+    padding: 12px 1px 1px 50px;
+    padding-left: 70px;
+    margin: 0px
+}
+

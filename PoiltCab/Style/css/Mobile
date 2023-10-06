@@ -1,0 +1,927 @@
+body {
+  background-color: #ddd
+}
+
+
+
+
+.Header {
+width: 100%;
+margin-bottom: 10px;
+position: absolute
+}
+
+
+/* Header area */
+ .Header .title {
+    width: 35%;
+    background-color: #7ecdd1;
+    margin-bottom: 20px;
+    position: relative;
+    float: left
+ }
+/* this area for logo */
+ .Header .title img {
+     
+    width: 247px;
+    height: 80px;
+ }
+ .Header .title h1 {
+   color:#000;
+   font-size: 30px
+ }
+
+/* This area for Ads */
+ .Header .Contact {
+    position: relative;
+    width: 65%;
+    height: 81px;
+    background-color: #7ecdd1;
+    float: right;
+ }
+ 
+ @media only screen and (max-width: 1024px) {
+  
+   .menus {
+    position: relative;
+    top: 175px;
+    width: 58%;
+    left: 221px;
+    height: 80px;
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 17px;
+}
+
+}
+
+.menus {
+   position: relative;
+    top: 175px;
+    width: 49%;
+    left: 349px;
+    height: 80px;
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 17px;
+}
+
+.menus .navbar {
+    /*background-color: #242438;   */
+    
+    /*width: 30%;*/
+    position: relative;
+    left: 19%;
+}
+
+.menus .navbar ul li a {
+    color:#7ecdd1
+}
+
+.menus .navbar ul li a:hover{
+    
+}
+
+
+.menus .navbar .Container-fluid {
+    border: none;
+    text-align: center;
+    
+    
+}
+
+.menus .navbar .Container-fluid .navbar-header {
+    
+    
+}
+
+.menus .navbar .Container-fluid .navbar-header .nav {
+    
+    
+}
+
+.menus .navbar .Container-fluid .navbar-header .nav-tabs {
+  border-bottom: none;  
+    
+} 
+
+.menus .navbar .Container-fluid .navbar-header .nav-tabs li {
+       margin-right: 70px; 
+    
+}
+
+
+.menus .navbar .Container-fluid .navbar-header .nav-tabs li a {
+    text-align: center;
+    
+}
+
+.Content {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 130px;
+    left: 55px;
+    
+    
+}
+
+
+.Content .Content-body {
+    /*border: 1px solid #337ab7;*/
+    padding: 30px;   
+    
+}
+.Content .Content-body .Budget-border {
+    
+    /*border: 1px solid #9e9e9e;*/
+    padding: 20px;
+    margin-bottom: 20px
+}
+.Content .Content-body .form {
+    
+    width: 70%;
+    margin-bottom: 100px;
+    left: 16%;
+    position: relative;
+    background-color: #7ecdd1;
+    border-radius: 12px;
+    padding: 16px;
+}
+.Content .Content-body .form .form-group {
+    width: 100%;
+    margin: 20px 0px 0px 20px;
+    padding: 0px; 
+}
+
+.Content .Content-body .form .form-group .input-group {
+    float: left;
+/*    margin-left: 10px;*/
+}
+
+.Content .Content-body .form .form-group .input-group button {
+    width: 163px;
+    background-color: #ffffff;
+    color: #7ecdd1;
+    margin-bottom: 0px;
+    height: 37px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.Content .Content-body .form .form-group .input-group .dropdown-toggle {
+    
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 49px;
+    border: 1px solid #ccc;
+    color: #848181;
+    text-align: left;
+    padding-left: 52px;
+    padding-top: 12px;
+}
+
+.Content .Content-body .form .form-group .input-group .dropdown-menu {
+    
+    width: 90%;
+    padding: 10px;
+    padding-top: 17px;
+    
+}
+
+
+.Content .Content-body .form .form-group .input-group .dropdown-menu .input-group-addon {
+    top:0px;
+    left: 2px;
+}
+
+.Content .Content-body .form .form-group .input-group .dropdown-menu li {
+   
+    margin-left: 13px;
+    float: left;
+    width: 92%;
+    margin-bottom: 10px;
+}
+
+.Content .Content-body .form .form-group .input-group .dropdown-menu li .Travelers {
+    position: relative
+}
+
+.Content .Content-body .form .form-group .input-group .dropdown-menu li input {
+    border-radius: 5px;
+    padding-left: 31px
+}
+.Content .Content-body .form .form-group .Button {
+    width: 75%;
+    position: relative;
+    top: 37px;
+    left: 10%;
+}
+
+.Content .Content-body .form .form-group .input-group .Search {
+    width: 100%;
+    height: 70px;
+    font-size: 23px;
+    margin-bottom: 0;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #7ecdd1;
+}
+.Content .Content-body .form .form-group .input-group button:focus {
+   background-color: #fff;
+   color:#1e88e5;
+   border: none
+}
+.Content .Content-body .form span {
+    
+    position: absolute;
+    top: 9px;
+    z-index: 9999;
+    background-color: #fff0;
+    border: none;
+    left: 6px;
+    font-size: 21px;
+    color: #848181;
+}
+
+.Content .Content-body .form .origin, .Content .Content-body .form .Destination, .Content .Content-body .form .Calendar-one-way, .Content .Content-body .form .Calendar-round-trip, .Content .Content-body .form .class-Travelers {
+    
+    width: 90%;
+    border-radius: 10px;
+    height: 50px;
+    padding: 1px 0px 0px 50px;
+    margin-bottom: 25px
+    
+}
+
+.Content .Content-body .form .Calendar-round-trip input {
+    
+}
+.panel-primary {
+    
+    border-color: #7ecdd1;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #7ecdd1;
+}
+
+.panel-primary > .panel-heading .Orders {
+    width: 100%;
+    left: 0px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    border: none
+}
+.panel-primary > .panel-heading .Orders label {
+   
+    float: left;
+    padding: 5px;
+    
+}
+.panel-primary > .panel-heading .Orders .btn {
+   
+    float: right;
+    height: 30px;
+    width: 65px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.Content .Content-body form .btn {
+    
+    height: 33px;
+    
+}
+.Content .Content-body form span {
+    
+    position: absolute;
+    top: 23px;
+    background-color: #ddd;
+    padding: 6px;
+    border: 1px solid;
+    right: 23px;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+.Content .Content-body ul {
+    
+    overflow: hidden;
+    
+}
+.Content .Content-body ul li {
+
+    margin-left: 29px;
+    list-style-type: none;
+    float: left;
+    width: 44%; 
+    
+}
+
+/* ===== Flight Card ===== */
+
+.Content .Content-body .Card {
+    width: 48%;
+    padding: 0px 0px 0px 0px;
+    margin-left: 16px;
+    border-color: #7ecdd1;
+}
+
+.Content .Content-body .Card .panel-body{
+    padding: 0px;
+}
+
+
+.Content .Content-body .Card .panel-heading {
+    padding: 0px 0px 0px 12px;
+    margin: 0;
+    height: 60px;  
+    background-color: #7ecdd1;
+    border-color: #7ecdd1;
+}
+
+.Content .Content-body .Card .panel-heading .Airline-logo {
+    height: 0px
+}
+
+.Content .Content-body .Card .panel-heading .Airline-logo img{
+    width: 150px;
+    height: 138px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -42px;
+}
+
+
+/* Card Header */
+.Content .Content-body .Card-Header {
+   margin-bottom: 10px 
+}
+.Content .Content-body .Card-Header ul {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid #7ecdd1;
+}
+.Content .Content-body .Card-Header ul li {
+
+    margin: 0;
+    list-style-type: none;
+    width: 30%;
+    
+}
+.Content .Content-body .Card-Header ul .Classes {
+    width:20%;
+}
+.Content .Content-body .Card-Header ul .Classes p {
+
+    width: 100%;
+    float: left;
+    border: 3px solid #7ecdd1;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #807b7b;
+    text-align: center;
+    
+}
+.Content .Content-body .Card-Header ul .Price {
+    width:40%;
+    float:right;
+    z-index: 9999;
+}
+.Content .Content-body .Card-Header ul .Price p {
+
+    padding: 4px;
+    float: right;
+    border-radius: 5px;
+    color: #d03434;
+    font-size: 14px;
+    font-size: 26px;
+    font-weight: 900;
+    
+}
+.Content .Content-body .Card-Header ul .Price span {
+
+    float: right;
+    margin: 1px 3px 0px 0px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #d03434;
+    font-size: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.Content .Content-body .Card-Header ul .Traveler-type {
+    width: 13%;
+    text-align: center;
+    margin-top: 36px;
+}
+.Content .Content-body .Card-Header ul .Traveler-type span i {
+    color:#3f51b5;
+}
+.Content .Content-body .Card-Header ul .Traveler-type span {
+   
+} 
+
+/* Card Body */
+.Content .Content-body .Card-Body {
+  padding: 10px 17px 10px 17px; 
+}
+.Content .Content-body .Card-Body ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0px 0px 0px 5px;
+    width: 100%;
+}
+.Content .Content-body .Card-Body ul li {
+
+    margin: 25px 0px 0px 0px;
+    list-style-type: none;
+    width: auto;
+/*    border: 1px solid;*/
+    padding: 0px;
+    
+}
+.Content .Content-body .Card-Body ul li p {
+
+    margin: 0;
+    padding: 4px 0px 0px 0px;
+    
+}
+.Content .Content-body .Card-Body ul .Time {
+    width: 86%;
+    margin-right: 10px;
+    padding: 0px 0px 0px 10px;
+}
+.Content .Content-body .Card-Body ul .Time .Time-Left {
+margin: 0
+}
+.Content .Content-body .Card-Body ul .Time .Time-Left span {
+   font-size: 18px;
+    font-weight: 600; 
+}
+.Content .Content-body .Card-Body ul .Time .Path {
+    margin: 0;
+    width: 68%;
+    padding: 0px;
+    position: relative;
+    top: 7px;
+    left: 9px;
+}
+.Content .Content-body .Card-Body ul .Time .Time-Right {
+margin: 0
+}
+
+.Content .Content-body .Card-Body ul .Time .Time-Right .fa-sun,.Content .Content-body .Card-Body ul .Time .Time-Left .fa-sun {
+    font-size: 20px;
+    color: #c19730;
+}
+
+.Content .Content-body .Card-Body ul .Time .Time-Right .fa-moon,.Content .Content-body .Card-Body ul .Time .Time-Left .fa-moon {
+    font-size: 20px;
+    color:#b2b2b2;
+    
+}
+.Content .Content-body .Card-Body ul .Time .Time-Right span {
+
+    font-size: 18px;
+    font-weight: 600;
+}
+.Content .Content-body .Card-Body ul .Time .Path .departure-icon  {
+ margin: 0;
+  font-size: 8px;
+}
+.Content .Content-body .Card-Body ul .Time .Path .path-icon {
+    width: 82%;
+    margin: 0px 5px;
+    padding: 1px;
+    top: 9px;
+    position: relative;
+    background-color: #ddd;
+}
+.Content .Content-body .Card-Body ul .Time .Path .path-icon p {
+   
+    width: 6px;
+    height: 8px;
+    padding: 0;
+    border: 1px solid;
+    background-color: #fff;
+    z-index: 9999;
+    position: absolute;
+    border-radius: 22px;
+    margin: 0;
+    top: -5px;
+    /*left: 30px;*/
+}
+.Content .Content-body .Card-Body ul .Time .Path .arrival-icon  {
+ margin: 0;
+ font-size: 8px
+}
+
+
+/* Card Details */
+
+.Content .Content-body .Card .Details {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.Content .Content-body .Card .Details .Card-Details {
+    border-top: 3px solid #ccc;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.Content .Content-body .Card .Details .Card-Details .Times {
+    
+}
+.Content .Content-body .Card .Details .Card-Details .Times ul {
+  overflow: inherit;
+  padding: 0px;
+  margin: 0px
+}
+.Content .Content-body .Card .Details .Card-Details .Times ul li {
+    
+    width: 100px;
+    height: 59px;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+/* Path */
+
+.Content .Content-body .Card .Details .Card-Details .Path {
+/*    background-color: #ccc;*/
+    width: auto;
+/*    border: 1px solid;*/
+    position: relative;
+    padding: 0;
+    margin: 0;  
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path {
+
+    width: 16px;
+    position: relative;
+    top: 15px;
+    margin-bottom: 32px;
+}
+
+/* Connection */
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path-Connection {
+    
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path-Connection-To-Destination {
+     margin-top: 35px;   
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path-Connection-To-Destination .icons-path {
+    width: 3px;
+    background-color: #ddd;
+    height: 100px;
+    margin-left: 7px; 
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path-Connection-To-Destination .icons-plane {
+    transform: rotate(90deg); 
+    font-size: 15px
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path-Connection-To-Destination .icons-path-dot {
+    width: 3px;
+    background-color: #9e9e9e38;
+    height: 70px;
+    margin-left: 7px;
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path-Connection-To-Destination .icons-location {
+  font-size: 16px  
+}
+
+
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path .icons-plane {
+    transform: rotate(90deg); 
+    font-size: 15px
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path .icons-plane p {
+    transform: rotate(90deg); 
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path .icons-path {
+    width: 3px;
+    background-color: #ddd;
+    height: 100px;
+    margin-left: 7px; 
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path .icons-path-dot {
+    width: 3px;
+    background-color: #9e9e9e38;
+    height: 70px;
+    margin-left: 7px;
+}
+.Content .Content-body .Card .Details .Card-Details .Path .icons-group-path .icons-location {
+  font-size: 16px  
+}
+
+/* Flight Details */
+
+.Content .Content-body .Card .Details .Card-Details .Flight-Details {
+/*    background-color: #ccc;*/
+    width: auto;
+/*    border: 1px solid;*/
+    position: relative;
+    padding: 0;
+    margin: 0;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path {
+    margin-bottom: 12px;
+    margin-top: 5px
+
+    
+}
+
+/*Connection */
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection {
+    
+    margin-top: 45px
+   
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection .icons-plane p {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection .icons-path {
+    
+    position: relative;
+    left: 26px;
+    top: 20px;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection .icons-path p {
+    font-size: 12px;
+    color: #9c9595;
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection .icons-location p {
+    position: relative;
+    top: 20px;
+    left: 10px; 
+}
+
+/* Connection-To-Destination */
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection-To-Destination {
+    margin-top: 48px;
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection-To-Destination .icons-plane {
+   
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection-To-Destination .icons-plane p {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection-To-Destination .icons-path {
+    
+    position: relative;
+    left: 26px;
+    top: 20px;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection-To-Destination .icons-path p {
+    font-size: 12px;
+    color: #9c9595;
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-Connection-To-Destination .icons-location p {
+    position: relative;
+    top: 20px;
+    left: 10px; 
+}
+
+
+/*Layover */
+
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-layover {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 155px;
+    left: 10px;
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-layover .icons-path {
+    
+}
+
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path-layover .icons-path p {
+    
+    position: relative;
+    top: 6px;
+    left: 10px;  
+}
+
+
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path .icons-plane {
+   
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path .icons-plane p {
+    position: relative;
+    top: 10px;
+    left: 10px;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path .icons-path {
+    
+    position: relative;
+    left: 26px;
+    top: 20px;  
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path .icons-path p {
+    font-size: 12px;
+    color: #9c9595;
+}
+.Content .Content-body .Card .Details .Card-Details .Flight-Details .icons-group-path .icons-location p {
+    position: relative;
+    top: 20px;
+    left: 10px; 
+}
+
+
+/* Arrive Details */
+
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details {
+    background-color: #adb6f8;
+    width: 97%;
+    position: relative;
+    padding: 0;
+    margin: 0px 0px 0px 6px;
+    border-radius: 16px 16px 16px 16px;
+}
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details .icons-group-path {
+    
+    
+}
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details .icons-group-path .Calender-icon {
+    
+    width: 7%;
+    float: left;
+    padding: 4px 0px 0px 8px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #5763b8;
+    color: #c8c7c7; 
+}
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details .icons-group-path .Note {
+    width: 24%;
+    margin: 0px;
+    padding: 0px 0px 0px 7px;
+    float: left;    
+}
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details .icons-group-path .Note  p 
+{
+    margin: 6px 0px 0px 0px;
+    font-size: 14px;
+}
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details .icons-group-path .Date {
+    width: 24%;
+    margin: 0px;
+    padding: 0px 0px 0px 4px;
+    float: left
+
+}
+.Content .Content-body .Card .Details .Card-Details .Arrive-Details .icons-group-path .Date p 
+{
+    margin: 6px 0px 0px 0px;
+    font-size: 14px;   
+}
+
+
+/* Baggage Details */
+
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details {
+    
+    border: 2px solid #ccc;
+    margin: 10px;
+    width: 96%;
+    border-radius: 10px;  
+    
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-Title {
+    font-size: 16px;
+    margin-top: 10px;   
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-Title p {
+     
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-Weight {
+    width: 75%;
+    color: #4caf50;
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-Weight p {
+    float: right;
+    margin-left: 10px;    
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-Fee {
+    width: 28%;
+    color: #4caf50;
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-Fee p {
+   float: right;
+   margin-left: 10px;   
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-policies {
+    width: 30%;
+    color: #3f51b5;
+}
+.Content .Content-body .Card .Details .Card-Details .Baggage-Details .Baggage-policies p {
+   float: right;
+   margin-left: 10px;  
+}
+
+/* Card Footer */
+.Content .Content-body .Card-Footer {
+  padding: 0px 14px 10px 19px;  
+}
+.Content .Content-body .Card-Footer ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;   
+}
+.Content .Content-body .Card-Footer ul li {
+    margin: 13px 0px 0px 0px;
+    list-style-type: none;
+    width: 33%;
+    padding: 1px;  
+}
+.Content .Content-body .Card-Footer ul .Departure-date {
+   text-align: left;
+}
+.Content .Content-body .Card-Footer ul .Duration {
+   text-align: center;
+}
+.Content .Content-body .Card-Footer ul .Duration .Time {
+   
+}
+.Content .Content-body .Card-Footer ul .Duration .Stop {
+   color: #9c0101;
+}
+
+.Content .Content-body .Card-Footer ul .Duration .Direct {
+   color: #4caf50;
+}
+.Content .Content-body .Card-Footer ul .Arrival-date {
+   text-align: right;
+}
+
+
+.Navbar{
+   width: 100%;
+   height: 80px;
+   padding-right: 10px;
+   margin-bottom: 20px
+ }
+
+ .Navbar ul {
+
+overflow:hidden;
+
+ }
+
+ .Navbar ul li {
+   float: right;
+   margin-left: 10px;
+   list-style-type: none
+ }
+
+ .Navbar ul li a  {
+
+   color:#000;
+   text-decoration-line: none;
+ }
+
+ .Footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #242438;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: -138px;
+ }
+
+.Footer ul {
+    padding: 45px 1px 0px 0px;
+    text-align: center; 
+    
+}
+
+.Footer ul li {
+    
+    
+}
+
+.Footer ul li p {
+    color: #ddd
+}

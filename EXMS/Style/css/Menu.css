@@ -1,0 +1,57 @@
+.menu {
+    
+ background-color: #fff;
+ height: 1000px;
+ border-right: 1px solid #ddd;
+ padding: 0 
+}
+.menu .list {
+   margin-top: 10px;
+   padding: 0px;
+   padding-left: 10px;
+   
+}
+.menu .list li {
+/*    padding: 13px 0px 0px 16px;*/
+    margin: 0px;
+    list-style: none;
+/*    height: 48px;*/
+}
+.menu .list li a {
+    color:#7e7e7e;
+    text-decoration-line: none;
+    
+}
+.menu .list li a div {
+    padding: 13px 0px 0px 16px; 
+    height: 48px;
+    border-bottom: 1px solid #ddd;
+}
+.menu .list li a div i {
+    float: right;
+    right:10px
+}
+.menu .list li a div:hover {
+ 
+  background: #ccc;
+  
+}
+.menu .list li a:active {
+ 
+  background: #ccc;
+  
+}
+.menu .list li {
+    
+    
+}
+
+.menu .list .Analytics-dropdown {
+/*    display: none*/
+}
+
+.menu .list li .Sub-page {
+    padding: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ddd;
+}

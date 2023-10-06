@@ -1,0 +1,39 @@
+.Form {
+
+    position: relative;
+    width: 28%;
+    top: 150px;
+    height: auto;
+    border: 1px solid #242438;
+    padding: 10px;
+    background-color: #ccc;
+    text-align: center;
+    margin-left: 38%;
+    margin-bottom: 100px;
+    padding: 20px;
+
+}
+
+
+input {
+
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  height: 24px
+  color:#fff0ad4e;
+}
+
+.btn {
+
+    width: 163px;
+    border: 1px solid #ccc;
+    background-color: #242438;
+    color: #fff;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.Danger {
+
+  color: #ef1111;
+}

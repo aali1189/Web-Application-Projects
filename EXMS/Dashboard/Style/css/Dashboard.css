@@ -1,0 +1,109 @@
+
+.body {
+    
+    
+    
+}
+.body .page-title {
+    
+    height: 58px;
+    background-color: #ddd;
+    padding: 10px 0px 0px 20px;
+}
+.body .page-title span {
+     
+    font-size: 24px;
+    color:#7e7e7e
+}
+
+.body .Status {
+    
+    margin: 20px 30px 0px 30px;
+    background-color: #fff;
+    padding: 30px;
+    height: 300px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    border-style: dotted;
+}
+.body .Status a {
+    color:#000
+}
+.body .Status a:hover{
+    font-size: 30px
+}
+
+.body .Status .Dropdown-list {
+    margin-bottom: 10px
+}
+.body .Status .Dropdown-list span{
+    
+}
+.body .Status .State {
+    
+    text-align: center;
+    height: 200px;
+    margin: 8px;
+    padding: 36px;
+    background-color: #97959514;
+    width: 23%;
+}
+
+.body .Status .State p {
+    font-size: 50px
+}
+
+.body .operations {
+    
+    
+}
+
+.body .operations .operators {
+    margin: 20px 20px 0px 30px;
+    background-color: #fff;
+/*    padding: 30px;*/
+    height: 639px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    border-style: dotted;
+}
+.body .operations .operators .title{
+    background-color: #fff;
+    height: 50px;
+    padding: 15px 0px 0px 20px;  
+}
+.body .operations .operators ul {
+  margin: 0px;
+  padding: 0px
+}
+.body .operations .operators ul li {
+    list-style: none
+}
+.body .operations .operators .State {
+    
+    text-align: center;
+    height: 180px;
+    margin: 8px;
+    padding: 36px;
+    background-color: #97959514;
+
+}
+
+
+.body .operations .operational-area {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    background-color: #f7f7f7;
+    height: 639px;
+    border-radius: 6px;
+    border: 2px solid #ccc;
+    border-style: dotted;
+}
+
+.body .operations .operational-area .title {
+    background-color: #fff;
+    height: 50px;
+    padding: 15px 0px 0px 20px;
+}
+
+

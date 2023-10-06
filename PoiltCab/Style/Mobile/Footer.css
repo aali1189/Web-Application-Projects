@@ -1,0 +1,25 @@
+ .Footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #242438;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: -138px;
+ }
+
+.Footer ul {
+    padding: 45px 1px 0px 0px;
+    text-align: center; 
+    
+}
+
+.Footer ul li {
+    
+    
+}
+
+.Footer ul li p {
+    color: #ddd
+}

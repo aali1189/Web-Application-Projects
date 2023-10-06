@@ -1,0 +1,45 @@
+.Form {
+
+    position: relative;
+    width: 40%;
+    top: 150px;
+    height: auto;
+    border: 1px solid #242438;
+    padding: 10px;
+    background-color: #009dec;
+    text-align: center;
+    margin-left: 36%;
+    margin-bottom: 100px;
+    padding: 20px;
+    right: 24%;
+}
+
+.Form h3 {
+    
+    color:#f0f9fe
+}
+
+
+input {
+
+    border: 1px solid #009dec;
+    margin-bottom: 20px;
+    height: 24px;
+    color: #009dec;
+    text-align: center;
+}
+
+.btn {
+
+    width: 163px;
+    border: 1px solid #ccc;
+    background-color: #f0f9fe;
+    color: #009fe6;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.Danger {
+
+  color: #ef1111;
+}

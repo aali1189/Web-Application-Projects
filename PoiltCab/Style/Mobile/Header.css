@@ -1,0 +1,35 @@
+.Header {
+width: 100%;
+margin-bottom: 10px;
+position: absolute
+}
+
+
+/* Header area */
+ .Header .title {
+    width: 35%;
+    background-color: #7ecdd1;
+    margin-bottom: 20px;
+    position: relative;
+    float: left
+ }
+/* this area for logo */
+ .Header .title img {
+     
+    width: 247px;
+    height: 80px;
+ }
+ .Header .title h1 {
+   color:#000;
+   font-size: 30px
+ }
+
+/* This area for Ads */
+ .Header .Contact {
+    position: relative;
+    width: 65%;
+    height: 81px;
+    background-color: #7ecdd1;
+    float: right;
+ }
+ 

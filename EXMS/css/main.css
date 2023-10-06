@@ -1,0 +1,80 @@
+body {
+  background-color: #ddd
+}
+
+
+
+
+
+
+
+
+
+.Header {
+width: 100%;
+height: 256px;
+margin-bottom: 10px
+}
+
+
+/* Header area */
+ .Header .title {
+   width: 20%;
+   height: 200px;
+   background-color: #000;
+   float: right;
+ }
+/* this area for logo */
+ .Header .title img {
+   width: 150px;
+   height: 150px
+ }
+ .Header .title h1 {
+   color:#fff;
+   font-size: 30px
+ }
+
+/* This area for Ads */
+ .Header .Ads {
+width:80%;
+height: 200px;
+background-color: #ff1;
+
+ }
+
+.Navbar{
+   width: 100%;
+   height: 80px;
+   padding-right: 10px;
+margin-bottom: 20px
+ }
+
+ .Navbar ul {
+
+overflow:hidden;
+
+ }
+
+ .Navbar ul li {
+   float: right;
+   margin-left: 10px;
+   list-style-type: none
+ }
+
+ .Navbar ul li a  {
+
+   color:#000;
+   text-decoration-line: none;
+ }
+
+
+ .Footer {
+
+   width: 100%;
+   height: 30px;
+   background-color: #fff;
+   margin:0px;
+   padding: 0px;
+   position: absolute;
+   bottom: 0px
+ }

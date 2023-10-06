@@ -1,0 +1,234 @@
+body {
+  background-color: #ddd
+}
+
+
+
+
+.Header {
+width: 100%;
+margin-bottom: 10px;
+position: absolute
+}
+
+
+/* Header area */
+ .Header .title {
+    width: 35%;
+    background-color: #fcfcfc;
+    margin-bottom: 20px;
+    position: relative;
+    float: left
+ }
+/* this area for logo */
+ .Header .title img {
+   width: 80px;
+/*   height: 150px*/
+ }
+ .Header .title h1 {
+   color:#000;
+   font-size: 30px
+ }
+
+/* This area for Ads */
+ .Header .Contact {
+    position: relative;
+    width: 65%;
+    height: 143px;
+    background-color: #fcfcfc;
+    float: right;
+ }
+
+.menus {
+    position: relative;
+    top: 118px;
+    width: 80%;
+    left: 140px;
+}
+
+.menus .navbar {
+    background-color: #242438;   
+}
+
+.menus .navbar ul li a {
+    color:#ddd
+}
+
+.Content {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 130px;
+    left: 55px;
+    
+    
+}
+
+
+.Content .Content-body {
+    border: 1px solid #337ab7;
+    padding: 30px;   
+    
+}
+
+.Content .Content-body .Amount {
+    
+    text-align: center
+}
+
+.Content .Content-body .Amount h1 {
+    
+}
+
+.Content .Content-body .Amount h1 span {
+    font-size: 16px
+}
+
+
+.Content .Content-body ul {
+    
+}
+
+.Content .Content-body ul li {
+    
+    
+}
+
+.panel-primary > .panel-heading {
+    
+    color: #fff;
+    background-color: #242438;
+    border-color: #fcad21;
+}
+.Content .Content-body .Budget-border {
+    
+    border: 1px solid #9e9e9e;
+    padding: 20px;
+    margin-bottom: 20px
+}
+
+
+.Content .Content-body .form {
+    
+    width: 40%;
+    height: 134px;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 12px;
+    padding: 23px;
+    left: 30%;
+    position: relative;
+}
+
+.panel-primary > .panel-heading .Orders {
+    width: 100%;
+    left: 0px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    border: none
+}
+
+.panel-primary > .panel-heading .Orders label {
+   
+    float: left;
+    padding: 5px;
+    
+}
+
+.panel-primary > .panel-heading .Orders .btn {
+   
+    float: right;
+    height: 30px;
+    width: 65px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.Content .Content-body form .btn {
+    
+    height: 33px;
+    
+}
+
+.Content .Content-body form span {
+    
+    position: absolute;
+    top: 23px;
+    background-color: #ddd;
+    padding: 6px;
+    border: 1px solid;
+    right: 23px;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+.Content .Content-body ul {
+    
+    overflow: hidden;
+    
+}
+
+.Content .Content-body ul li {
+
+    margin-left: 29px;
+    list-style-type: none;
+    float: left;
+    width: 44%; 
+    
+}
+
+
+
+
+.Navbar{
+   width: 100%;
+   height: 80px;
+   padding-right: 10px;
+   margin-bottom: 20px
+ }
+
+ .Navbar ul {
+
+overflow:hidden;
+
+ }
+
+ .Navbar ul li {
+   float: right;
+   margin-left: 10px;
+   list-style-type: none
+ }
+
+ .Navbar ul li a  {
+
+   color:#000;
+   text-decoration-line: none;
+ }
+
+
+ .Footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #242438;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: -138px;
+ }
+
+.Footer ul {
+    padding: 45px 1px 0px 0px;
+    text-align: center; 
+    
+}
+
+.Footer ul li {
+    
+    
+}
+
+.Footer ul li p {
+    color: #ddd
+}
