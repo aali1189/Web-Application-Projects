@@ -1,1 +1,1 @@
-# Content Maintenace Management System
+# Content Maintenance Management System
